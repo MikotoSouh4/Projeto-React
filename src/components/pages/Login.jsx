@@ -10,14 +10,14 @@ export default function Login() {
           Faça login
           <br />e entre para o mundo dos perfumes!
         </h1>
-        <img src={Logo} alt="mão com flor" />
+        <img src={Logo} alt="mão com flor" />;
       </div>
 
       <div className="login-right">
         <div className="card-login">
           <h1>LOGIN</h1>
           <div className="textfield">
-            <label for="Usuário">Usuário</label>
+            <label htmlfor="Usuário">Usuário</label>
             <input
               type="text"
               name="Usuário"
@@ -26,7 +26,7 @@ export default function Login() {
           </div>
 
           <div className="textfield">
-            <label for="senha">Senha</label>
+            <label htmlfor="senha">Senha</label>
             <input
               type="password"
               name="senha"

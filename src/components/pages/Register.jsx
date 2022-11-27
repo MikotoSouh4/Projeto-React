@@ -15,7 +15,7 @@ export default function Register() {
         <div className="card-login">
           <h1>REGISTRO</h1>
           <div className="textfield">
-            <label for="Usuário">Usuário</label>
+            <label htmlfor="Usuário">Usuário</label>
             <input
               type="text"
               name="Usuário"
@@ -23,7 +23,7 @@ export default function Register() {
             />
           </div>
           <div className="textfield">
-            <label for="senha">Senha</label>
+            <label htmlfor="senha">Senha</label>
             <input
               type="password"
               name="senha"
