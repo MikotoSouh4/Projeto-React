@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Login.css";
 import Logo from "../../Images/Logo.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -17,7 +18,7 @@ export default function Login() {
         <div className="card-login">
           <h1>LOGIN</h1>
           <div className="textfield">
-            <label htmlfor="Usuário">Usuário</label>
+            <label htmlFor="Usuário">Usuário</label>
             <input
               type="text"
               name="Usuário"
@@ -26,7 +27,7 @@ export default function Login() {
           </div>
 
           <div className="textfield">
-            <label htmlfor="senha">Senha</label>
+            <label htmlFor="senha">Senha</label>
             <input
               type="password"
               name="senha"
@@ -40,7 +41,7 @@ export default function Login() {
               <a href="#">Esqueceu sua Senha?</a>
             </p>
             <p>
-              <a href={"/Register"}>Registre-se</a>{" "}
+              <Link to={"/Register"}>Registre-se</Link>
             </p>
           </div>
         </div>
