@@ -40,9 +40,7 @@ export default function Login() {
               <a href="#">Esqueceu sua Senha?</a>
             </p>
             <p>
-              <a href="file:///C:/Users/hpere/OneDrive/%C3%81rea%20de%20Trabalho/T%20Good%20Parfum/Registro/REGISTRO.html">
-                Registre-se
-              </a>{" "}
+              <a href={"/Register"}>Registre-se</a>{" "}
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function AppHeader() {
     <div className="container">
       <div className="navbar">
         <div className="logo">
-          <a href="index.html">
+          <a href={"/"}>
             <img
               src="https://i.pinimg.com/originals/89/9a/30/899a3075798ce40e92ea4d4ccb418f4b.jpg"
               alt="RedStore"
@@ -21,13 +21,13 @@ export default function AppHeader() {
               </a>
             </li>
             <li>
-              <a href="#">Produtos</a>
+              <a href={"/"}>Produtos</a>
             </li>
             <li>
               <a href="#">Sobre</a>
             </li>
             <li>
-              <a href="#">Entre</a>
+              <a href={"/Login"}>Entre</a>
             </li>
           </ul>
         </nav>
