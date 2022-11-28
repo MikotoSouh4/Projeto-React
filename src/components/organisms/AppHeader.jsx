@@ -17,7 +17,7 @@ export default function AppHeader() {
         <nav>
           <ul id="MenuItems">
             <li>
-              <Link className="menuLista" to="#">
+              <Link className="menuLista" to={"/"}>
                 Inicio
               </Link>
             </li>

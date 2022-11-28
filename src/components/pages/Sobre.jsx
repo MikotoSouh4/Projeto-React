@@ -16,7 +16,7 @@ export default function Sobre() {
           seus objetivos e se diferenciarem no mercado moderno cada vez mais
           competitivo. Nossa equipe operacional é formada por editores,
           revisores, escritores, ghost writers e copywriters, pós-graduados,
-          mestres e doutores, com formação em humanas, exatas e biológicas e
+          mestres e doutores com formação em humanas, exatas e biológicas e
           amplo e profundo conhecimento teórico e prático em suas áreas de
           atuação. A expertise de nossos consultores garante a produção de
           conteúdo textual de qualidade, em linha com as mais modernas técnicas,
