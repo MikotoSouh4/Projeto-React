@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Login.css";
-import Logo from "../../Images/Logo.png";
+import Logo from "../../Images/Fav.png";
 import { Link } from "react-router-dom";
 
 export default function Login() {
@@ -11,7 +11,7 @@ export default function Login() {
           Faça login
           <br />e entre para o mundo dos perfumes!
         </h1>
-        <img src={Logo} alt="mão com flor" />;
+        <img className="img" src={Logo} alt="mão com flor" />;
       </div>
 
       <div className="login-right">

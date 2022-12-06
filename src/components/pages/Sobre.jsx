@@ -1,5 +1,6 @@
 import React from "react";
 import { AppFooter, AppHeader } from "../organisms";
+import Imagem from "../../Images/perfume.jpg";
 
 import "../../styles/Sobre.css";
 export default function Sobre() {
@@ -9,6 +10,10 @@ export default function Sobre() {
       <main>
         <div className="h1">
           <h1>Sobre Nós</h1>
+        </div>
+
+        <div>
+          <img className="img" src={Imagem} alt="perfumaria" />
         </div>
         <div className="text">
           Nossa empresa surgiu para atender um mercado cada vez maior de pessoas

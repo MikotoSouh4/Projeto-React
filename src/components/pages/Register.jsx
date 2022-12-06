@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Register.css";
+import Logo from "../../Images/Fav.png";
 
 export default function Register() {
   return (
@@ -9,7 +10,7 @@ export default function Register() {
           Faça seu Registro
           <br />e entre para o mundo dos perfumes!
         </h1>
-        <img src="mao.svg" alt="mão com flor" />
+        <img className="img" src={Logo} alt="mão com flor" />
       </div>
       <div className="login-right">
         <div className="card-login">
